@@ -834,6 +834,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.PrintPixelExperienceBanner(is_plus, android_version, build_id, build_date,
                                   security_patch, device)
 
+  script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
 
   if CopyInstallTools(output_zip):
