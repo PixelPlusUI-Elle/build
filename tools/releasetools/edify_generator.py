@@ -273,8 +273,9 @@ class EdifyGenerator(object):
     self.Print("       /  ___/ /  ___/ / /   / / /  /        ");
     self.Print("      /  /    /  /    / /___/ / /  /         ");
     self.Print("     /__/    /__/     \______/ /__/          ");
+    self.Print("                                             ");
+    self.Print("      Your Requirements, Our Goals           ");
     self.Print("----------------------------------------------")
-    self.Print(" ROM by: @kostyajrz");
     self.Print(" Android Version: %s"%(android_version));
     self.Print(" Build ID: %s"%(build_id));
     self.Print(" Build Time: %s"%(build_date));
